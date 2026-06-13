@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SP Trinetra — Brand Guidelines</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--canvas:#F7F2E8;--surface:#FFFDF8;--line:#E8DEC9;--ink:#1E2340;--muted:#6E6B7A;--saffron:#E08A2B;--saffron-d:#C9761B;--vermilion:#D2452F;--blue:#2C5C86}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--canvas);color:var(--ink);font-family:"IBM Plex Sans",sans-serif;line-height:1.6}
+.wrap{max-width:920px;margin:0 auto;padding:48px 24px 80px}
+h1,h2,h3{font-family:"Poppins",sans-serif;letter-spacing:-.01em}
+h1{font-size:2.1rem;font-weight:700}
+h2{font-size:1.3rem;font-weight:600;margin:48px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--saffron-d)}
+.lead{color:var(--muted);max-width:60ch;margin-top:8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;margin-top:14px}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+.row .card{flex:1;min-width:200px;margin-top:0}
+img.logo{max-width:100%;height:auto}
+.muted{color:var(--muted)}
+.mono{font-family:"IBM Plex Mono",monospace;font-size:.86rem}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:.9rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.sw{display:flex;align-items:center;gap:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);margin-top:10px}
+.chip{width:54px;height:54px;border-radius:9px;flex:0 0 auto;border:1px solid rgba(0,0,0,.08)}
+.chip-name{font-family:"Poppins",sans-serif;font-weight:600}
+ul{margin:8px 0 0 20px}li{margin:5px 0}
+.do,.dont{font-family:"IBM Plex Mono",monospace;font-weight:500}
+.do{color:#2e7d52}.dont{color:var(--vermilion)}
+.fp{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:.84rem;line-height:1.9}
+.fp b{color:var(--vermilion)}
+</style></head>
+<body><div class="wrap">
+
+<span class="eyebrow">Brand Guidelines · v1</span>
+<h1>SP Trinetra</h1>
+<p class="lead">The third eye of clarity for business AI. This sheet defines the logo, colors, and exact construction so the mark stays consistent — and so any copy can be identified against the original geometry.</p>
+
+<h2>Logo versions</h2>
+<div class="card"><img class="logo" src="logo-company-on-ivory.png" alt="SP Trinetra full logo"><p class="muted" style="margin-top:10px">Full company lockup — formal use (invoices, contracts, letterhead, proposals).</p></div>
+<div class="row" style="margin-top:14px">
+  <div class="card"><img class="logo" src="logo-full-on-ivory.png" alt="trinetra logo"><p class="muted" style="margin-top:10px">Primary brand mark — website, marketing, everyday use.</p></div>
+  <div class="card" style="background:var(--ink)"><img class="logo" src="logo-full-dark.svg" alt="trinetra logo dark"><p style="color:#cfd0e0;margin-top:10px">Reversed — for dark backgrounds.</p></div>
+</div>
+<div class="row" style="margin-top:14px">
+  <div class="card" style="text-align:center"><img src="logo-mark.png" alt="mark" style="width:96px"><p class="muted" style="margin-top:10px">Icon / mark only — stamps, watermark, small spaces.</p></div>
+  <div class="card" style="text-align:center"><img src="avatar-round.png" alt="avatar" style="width:96px;border-radius:50%"><p class="muted" style="margin-top:10px">Avatar — email, WhatsApp, LinkedIn, social profiles.</p></div>
+  <div class="card" style="text-align:center"><img src="favicon.png" alt="favicon" style="width:96px;border-radius:18px"><p class="muted" style="margin-top:10px">App / favicon tile.</p></div>
+</div>
+
+<h2>Colors</h2>
+<table><tr><th>Role</th><th>Name</th><th>HEX</th><th>RGB</th><th>CMYK</th></tr>
+<tr><td>Text / structure</td><td>Neelkanth Indigo</td><td class="mono">#1E2340</td><td class="mono">30, 35, 64</td><td class="mono">53 45 0 75</td></tr>
+<tr><td>Primary / buttons</td><td>Kesari Saffron</td><td class="mono">#E08A2B</td><td class="mono">224, 138, 43</td><td class="mono">0 38 81 12</td></tr>
+<tr><td>Primary (deep)</td><td>Saffron Deep</td><td class="mono">#C9761B</td><td class="mono">201, 118, 27</td><td class="mono">0 41 87 21</td></tr>
+<tr><td>Accent / fire</td><td>Third-eye Vermilion</td><td class="mono">#D2452F</td><td class="mono">210, 69, 47</td><td class="mono">0 67 78 18</td></tr>
+<tr><td>Live / link accent</td><td>Neelkanth Blue</td><td class="mono">#2C5C86</td><td class="mono">44, 92, 134</td><td class="mono">67 31 0 47</td></tr>
+<tr><td>Background</td><td>Sacred-ash Ivory</td><td class="mono">#F7F2E8</td><td class="mono">247, 242, 232</td><td class="mono">0 2 6 3</td></tr></table>
+<div class="row" style="margin-top:14px">
+  <div class="sw"><div class="chip" style="background:#1E2340"></div><div><div class="chip-name">Indigo</div><div class="mono muted">#1E2340</div></div></div>
+  <div class="sw"><div class="chip" style="background:#E08A2B"></div><div><div class="chip-name">Saffron</div><div class="mono muted">#E08A2B</div></div></div>
+  <div class="sw"><div class="chip" style="background:#D2452F"></div><div><div class="chip-name">Vermilion</div><div class="mono muted">#D2452F</div></div></div>
+  <div class="sw"><div class="chip" style="background:#2C5C86"></div><div><div class="chip-name">Blue</div><div class="mono muted">#2C5C86</div></div></div>
+</div>
+
+<h2>Typography</h2>
+<div class="card">
+<p><b style="font-family:Poppins;font-weight:600;font-size:1.2rem">Poppins</b> — logo wordmark &amp; headings (Medium 500 / SemiBold 600 / Bold 700).</p>
+<p style="margin-top:8px"><b style="font-weight:600">IBM Plex Sans</b> — body text.</p>
+<p style="margin-top:8px" class="mono">IBM Plex Mono — labels, code, data, eyebrows.</p>
+</div>
+
+<h2>Clear space &amp; minimum size</h2>
+<div class="card">
+<ul>
+<li><b>Clear space:</b> keep empty margin on all sides equal to the <b>iris diameter</b> (23 units in the 120-grid ≈ 19% of the mark's height). Nothing — text, edges, other logos — enters this zone.</li>
+<li><b>Minimum size:</b> mark alone ≥ <b>24 px</b> tall; full lockup ≥ <b>120 px</b> wide. Below this the three ash-lines blur together.</li>
+<li><b>Backgrounds:</b> use the standard logo on ivory/white/light; use the reversed (dark) version on indigo or photos.</li>
+</ul></div>
+
+<h2>Construction &amp; fingerprint</h2>
+<p class="lead">The mark is built on a <b>120 × 120 grid</b>, symmetrical about the vertical axis x = 60. These exact measurements are the proof of authorship — a copy will almost never match all of them.</p>
+<div class="card" style="text-align:center"><img class="logo" src="logo-construction.png" alt="logo construction grid" style="max-width:520px"></div>
+<div class="fp">
+AXIS — vertical mirror at <b>x=60</b>; everything centered on it.<br>
+TRIPUNDRA (3 ash lines) — stroke width <b>5.4</b>, round caps, vertical spacing <b>11</b>. L1 y=26 length 30 (saffron) · <b>L2 y=37 length 38 (vermilion, the longest)</b> · L3 y=48 length 30 (saffron).<br>
+FIRE DROP — small vermilion flame at x=60, y≈52–60, directly above the eye tip.<br>
+EYE — almond path: <span style="color:#2C5C86">M60 60 Q78 81 60 102 Q42 81 60 60</span>; height <b>42</b>, width <b>36</b> at mid; indigo stroke <b>3.2</b>, ivory fill.<br>
+IRIS — circle cx60 cy81 <b>r=11.5</b>; radial gradient <b>#F4B65C → #E08A2B → #D2452F</b>.<br>
+PUPIL — circle cx60 cy81 <b>r=5</b>, solid indigo.<br>
+CATCHLIGHT — the tell: white dot <b>r=1.7 at (62, 78.5)</b> — offset up-and-right of center, never centered.<br>
+PROPORTION — eye height (42) ≈ <b>1.9×</b> the tripundra stack height (22).
+</div>
+<p class="muted" style="margin-top:10px">Quick authenticity check: middle ash-line is the longest <b>and</b> the only red one; iris is a saffron-to-red gradient (not flat); catchlight sits up-right, not centered. Miss any of these → not the genuine mark.</p>
+
+<h2>Misuse — don't</h2>
+<div class="card"><ul>
+<li><span class="dont">✕</span> recolor the logo outside the palette, or make the whole mark one flat color</li>
+<li><span class="dont">✕</span> stretch, rotate, or skew it; keep the 120×120 proportions</li>
+<li><span class="dont">✕</span> center the catchlight or remove the gradient/fire-drop</li>
+<li><span class="dont">✕</span> add effects (drop shadows, outlines, glows) to the mark itself</li>
+<li><span class="dont">✕</span> place on a busy background with low contrast — use the dark/reversed version instead</li>
+</ul></div>
+
+<h2>File index</h2>
+<table><tr><th>File</th><th>Use for</th></tr>
+<tr><td class="mono">logo-company.svg / .png</td><td>Formal "SP Trinetra" lockup — documents, contracts, letterhead</td></tr>
+<tr><td class="mono">logo-full.svg / .png</td><td>Primary "trinetra" brand — website, decks, marketing</td></tr>
+<tr><td class="mono">logo-full-dark.svg</td><td>Dark backgrounds</td></tr>
+<tr><td class="mono">logo-mark.svg / .png</td><td>Icon only — watermark, stamp, tight spaces</td></tr>
+<tr><td class="mono">avatar-round.png</td><td>Email / social / LinkedIn / WhatsApp avatar</td></tr>
+<tr><td class="mono">favicon.svg / .png</td><td>Browser tab + app icon</td></tr>
+<tr><td class="mono">email-signature.html</td><td>Email signature template (paste into Gmail/Outlook)</td></tr>
+</table>
+
+<p class="muted mono" style="margin-top:40px;font-size:.78rem">SP Trinetra · sptrinetra.com · Brand guidelines v1</p>
+</div></body></html>
